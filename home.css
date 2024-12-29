@@ -1,0 +1,326 @@
+/* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.vid{
+    max-width: 1250px;
+}
+
+.home_icon{
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+}
+header{
+    background-image: url(/image/backgroud.jp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.logo_promax{
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gainsboro;
+    color: black;
+    z-index: 999;
+}
+/* .home_icon{
+    mix-blend-mode: m;
+    color: white;
+    background-color: black; */
+
+.logopro{
+    display: flex;
+}
+
+    
+
+
+nav ul{ 
+    display: flex;
+    
+    justify-content: center;
+    gap: 40px;
+    
+
+   
+    display: flex;
+}
+nav ul li{
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    gap: 20px;
+    color: black;
+    font-size: large;
+    
+}
+nav ul li a:hover{
+    border-bottom: 2px solid orangered  ;
+
+}
+.find_place{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    gap: 20px;
+    
+}
+.best_home{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn{
+    border-radius: 10px;
+    
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+.btn:hover{
+    background-color: transparent;
+    color: blue;
+    border: 2px solid black;
+    transition: 0.5s ease-in;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+       
+    margin: 50px; 
+}
+
+.card_social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.card_social li{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.card-sos{
+    mix-blend-mode: multiply;
+}
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+     width: 100%;
+    height: 150px;  
+    object-fit: cover;
+}
+.star{
+    display: flex;
+}
+.starmax{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+    
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card p {
+    margin: 0 15px 15px;
+    font-size: 1rem;
+    color: #666;
+}
+.we_specializepro{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin:40px;
+}
+.vid{
+    width: 1500px;
+}
+.smart_home{
+    display: flex;
+    background-color: red;
+}
+ ul{
+    margin-top: 15px;
+
+}
+ ul li{
+    list-style: none;
+    line-height: 30px;
+    display: flex;
+
+    gap: 10px;
+}
+ul li a{
+    text-decoration: none;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.we_help{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.circle-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    max-width: 400px;
+    margin: auto;
+}
+.circlpromax{
+    display: flex;
+    
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* margin: 10px;
+} */
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.we_specializepro{
+    display: flex;
+
+
+}
+
+    
+
+.our_customer{
+    background-color: aliceblue;
+    padding: 20px;
+}
+.ftn_pro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    margin-left: 30px;
+    
+}
+.ftn_home{
+    display: flex;
+    gap: 10px;
+}
+footer{
+    background-image: url(/image/backgroud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.ftn_pro li{
+    list-style: none;
+}
+.ftn_pro a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.ftn_pro a:hover{
+    color: orangered;
+    border-bottom: 2px solid white;
+}
+.social{
+    display: flex;
+    gap: 10px;
+    mix-blend-mode: hard-light;
+}
+.olalekan{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    .find_place{
+        display: block;
+    }
+    .we_specializepro{
+        display: block;
+    }
+    
+    
+    }
+     
+        
+    
+    /* .vid{
+        max-width: 400px;
+    } */
+    
+    .logo_promax{
+        display: flex
+    }
+
+
+@media (max-width: 480px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
